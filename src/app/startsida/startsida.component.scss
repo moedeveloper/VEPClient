@@ -1,0 +1,12 @@
+::ng-deep {
+  .welcome .page-header__block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .welcome h1 {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+}

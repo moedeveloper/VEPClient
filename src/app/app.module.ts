@@ -4,13 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { KomponentkartanModule } from 'vgr-komponentkartan';
+import { StartsidaComponent } from './startsida/startsida.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StartsidaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    KomponentkartanModule
   ],
   providers: [],
   bootstrap: [AppComponent]
